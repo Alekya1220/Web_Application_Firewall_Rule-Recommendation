@@ -1,0 +1,626 @@
+support,itemsets,length
+0.89959,frozenset({'method=get'}),1
+0.60052,frozenset({'action=review_required'}),1
+0.00908,frozenset({'attack_type=injection|php_injection'}),1
+0.00309,frozenset({'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php'}),1
+0.25892,frozenset({'attack_type=protocol_anomaly'}),1
+0.26012,frozenset({'attack_type=lfi'}),1
+0.0205,frozenset({'endpoint=/.git/config'}),1
+0.00126,frozenset({'endpoint=/d_9161f094/d_74f0f511/semmelrock-alkalmazastechnikai-utmutato.pdf'}),1
+0.40125,frozenset({'attack_type=untagged'}),1
+0.39948,frozenset({'action=block'}),1
+0.11414,frozenset({'endpoint=/robots.txt'}),1
+0.00209,frozenset({'endpoint=/wp-config.php'}),1
+0.09694,frozenset({'method=post'}),1
+0.01506,frozenset({'attack_type=rce'}),1
+0.00264,frozenset({'endpoint=/wp-plain.php'}),1
+0.02715,frozenset({'endpoint=/.env'}),1
+0.00403,frozenset({'endpoint=/xmlrpc.php?rsd'}),1
+0.08087,frozenset({'endpoint=/xmlrpc.php'}),1
+0.04178,frozenset({'attack_type=lfi|protocol_anomaly'}),1
+0.04663,frozenset({'endpoint=/'}),1
+0.00176,frozenset({'endpoint=/wp-login.php'}),1
+0.00177,frozenset({'endpoint=/portal/.env'}),1
+0.00804,frozenset({'endpoint=/api/.env'}),1
+0.00412,frozenset({'endpoint=/app/.env'}),1
+0.00348,frozenset({'endpoint=/dev/.env'}),1
+0.00105,frozenset({'endpoint=/new/.env'}),1
+0.00101,frozenset({'endpoint=/conf/.env'}),1
+0.00113,frozenset({'endpoint=/cron/.env'}),1
+0.001,frozenset({'endpoint=/www/.env'}),1
+0.00276,frozenset({'endpoint=/docker/.env'}),1
+0.00169,frozenset({'endpoint=/.vscode/.env'}),1
+0.00337,frozenset({'endpoint=/laravel/.env'}),1
+0.00156,frozenset({'endpoint=/laravel/core/.env'}),1
+0.00168,frozenset({'endpoint=/mail/.env'}),1
+0.00159,frozenset({'endpoint=/mailer/.env'}),1
+0.00202,frozenset({'endpoint=/public/.env'}),1
+0.00114,frozenset({'endpoint=/site/.env'}),1
+0.00101,frozenset({'endpoint=/main/.env'}),1
+0.00158,frozenset({'endpoint=/kyc/.env'}),1
+0.00497,frozenset({'endpoint=/admin/.env'}),1
+0.00165,frozenset({'endpoint=/prod/.env'}),1
+0.00462,frozenset({'endpoint=/.env.bak'}),1
+0.00119,frozenset({'endpoint=/website/.env'}),1
+0.00176,frozenset({'endpoint=/development/.env'}),1
+0.00534,frozenset({'endpoint=/backend/.env'}),1
+0.00171,frozenset({'endpoint=/.env.production.local'}),1
+0.00498,frozenset({'endpoint=/.env.local'}),1
+0.00484,frozenset({'endpoint=/.env.example'}),1
+0.0023,frozenset({'endpoint=/.env.stage'}),1
+0.00173,frozenset({'endpoint=/.env.old'}),1
+0.00399,frozenset({'endpoint=/.env.prod'}),1
+0.00159,frozenset({'endpoint=/crm/.env'}),1
+0.0016,frozenset({'endpoint=/local/.env'}),1
+0.00185,frozenset({'endpoint=/core/.env'}),1
+0.00238,frozenset({'endpoint=/apps/.env'}),1
+0.00339,frozenset({'endpoint=/application/.env'}),1
+0.00194,frozenset({'endpoint=/web/.env'}),1
+0.00394,frozenset({'endpoint=/.aws/credentials'}),1
+0.00104,frozenset({'endpoint=/wp-config.php.bak'}),1
+0.00159,frozenset({'endpoint=/d_94228992/d_badc51c9/laravel.log'}),1
+0.00103,frozenset({'endpoint=/.travis.yml'}),1
+0.00224,frozenset({'endpoint=/.aws/config'}),1
+0.00302,frozenset({'endpoint=/.ds_store'}),1
+0.00718,frozenset({'endpoint=/.git/head'}),1
+0.00267,frozenset({'endpoint=/.env.dev'}),1
+0.00168,frozenset({'endpoint=/.env.development'}),1
+0.00433,frozenset({'endpoint=/.env.production'}),1
+0.0039,frozenset({'endpoint=/config/.env'}),1
+0.00145,frozenset({'endpoint=/server/.env'}),1
+0.00132,frozenset({'endpoint=/d_badc51c9/app.log'}),1
+0.00101,frozenset({'endpoint=/backup.sql'}),1
+0.00109,frozenset({'endpoint=/assets/js/wp-config.php'}),1
+0.00102,frozenset({'endpoint=/.env.backup'}),1
+0.00267,frozenset({'endpoint=/.env.save'}),1
+0.00102,frozenset({'endpoint=/beta/.env'}),1
+0.00107,frozenset({'endpoint=/vendor/.env'}),1
+0.001,frozenset({'endpoint=/d_26833b49/debug.log'}),1
+0.00129,frozenset({'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php.suspected'}),1
+0.00251,frozenset({'method=head'}),1
+0.0011,frozenset({'endpoint=/wp-includes/css/wp-config.php'}),1
+0.0056,frozenset({'attack_type=sqli'}),1
+0.00103,frozenset({'attack_type=xss'}),1
+0.0031,frozenset({'attack_type=lfi|rce'}),1
+0.50061,"frozenset({'action=review_required', 'method=get'})",2
+0.00908,"frozenset({'action=review_required', 'attack_type=injection|php_injection'})",2
+0.00637,"frozenset({'method=get', 'attack_type=injection|php_injection'})",2
+0.00271,"frozenset({'method=post', 'attack_type=injection|php_injection'})",2
+0.00637,"frozenset({'action=review_required', 'method=get', 'attack_type=injection|php_injection'})",3
+0.00271,"frozenset({'action=review_required', 'method=post', 'attack_type=injection|php_injection'})",3
+0.00309,"frozenset({'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php', 'attack_type=injection|php_injection'})",2
+0.00309,"frozenset({'action=review_required', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php'})",2
+0.00309,"frozenset({'method=get', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php'})",2
+0.00309,"frozenset({'action=review_required', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php', 'attack_type=injection|php_injection'})",3
+0.00309,"frozenset({'method=get', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php', 'attack_type=injection|php_injection'})",3
+0.00309,"frozenset({'action=review_required', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php', 'method=get'})",3
+0.00309,"frozenset({'action=review_required', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php', 'method=get', 'attack_type=injection|php_injection'})",4
+0.25883,"frozenset({'action=review_required', 'attack_type=protocol_anomaly'})",2
+0.17411,"frozenset({'method=get', 'attack_type=protocol_anomaly'})",2
+0.17411,"frozenset({'action=review_required', 'method=get', 'attack_type=protocol_anomaly'})",3
+0.26012,"frozenset({'action=review_required', 'attack_type=lfi'})",2
+0.2597,"frozenset({'method=get', 'attack_type=lfi'})",2
+0.2597,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get'})",3
+0.0205,"frozenset({'action=review_required', 'endpoint=/.git/config'})",2
+0.0205,"frozenset({'method=get', 'endpoint=/.git/config'})",2
+0.01012,"frozenset({'attack_type=lfi', 'endpoint=/.git/config'})",2
+0.01038,"frozenset({'attack_type=lfi|protocol_anomaly', 'endpoint=/.git/config'})",2
+0.0205,"frozenset({'action=review_required', 'method=get', 'endpoint=/.git/config'})",3
+0.01012,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.git/config'})",3
+0.01012,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.git/config'})",3
+0.01012,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/.git/config'})",4
+0.01038,"frozenset({'method=get', 'attack_type=lfi|protocol_anomaly', 'endpoint=/.git/config'})",3
+0.01038,"frozenset({'action=review_required', 'attack_type=lfi|protocol_anomaly', 'endpoint=/.git/config'})",3
+0.01038,"frozenset({'action=review_required', 'method=get', 'attack_type=lfi|protocol_anomaly', 'endpoint=/.git/config'})",4
+0.00126,"frozenset({'attack_type=protocol_anomaly', 'endpoint=/d_9161f094/d_74f0f511/semmelrock-alkalmazastechnikai-utmutato.pdf'})",2
+0.00126,"frozenset({'action=review_required', 'endpoint=/d_9161f094/d_74f0f511/semmelrock-alkalmazastechnikai-utmutato.pdf'})",2
+0.00126,"frozenset({'method=get', 'endpoint=/d_9161f094/d_74f0f511/semmelrock-alkalmazastechnikai-utmutato.pdf'})",2
+0.00126,"frozenset({'action=review_required', 'attack_type=protocol_anomaly', 'endpoint=/d_9161f094/d_74f0f511/semmelrock-alkalmazastechnikai-utmutato.pdf'})",3
+0.00126,"frozenset({'method=get', 'attack_type=protocol_anomaly', 'endpoint=/d_9161f094/d_74f0f511/semmelrock-alkalmazastechnikai-utmutato.pdf'})",3
+0.00126,"frozenset({'action=review_required', 'method=get', 'endpoint=/d_9161f094/d_74f0f511/semmelrock-alkalmazastechnikai-utmutato.pdf'})",3
+0.00126,"frozenset({'action=review_required', 'method=get', 'attack_type=protocol_anomaly', 'endpoint=/d_9161f094/d_74f0f511/semmelrock-alkalmazastechnikai-utmutato.pdf'})",4
+0.4003,"frozenset({'method=get', 'attack_type=untagged'})",2
+0.00186,"frozenset({'action=review_required', 'attack_type=untagged'})",2
+0.00132,"frozenset({'action=review_required', 'attack_type=untagged', 'method=get'})",3
+0.39939,"frozenset({'attack_type=untagged', 'action=block'})",2
+0.39898,"frozenset({'method=get', 'action=block'})",2
+0.39898,"frozenset({'method=get', 'attack_type=untagged', 'action=block'})",3
+0.11414,"frozenset({'method=get', 'endpoint=/robots.txt'})",2
+0.11177,"frozenset({'endpoint=/robots.txt', 'action=block'})",2
+0.11177,"frozenset({'attack_type=untagged', 'endpoint=/robots.txt'})",2
+0.00237,"frozenset({'attack_type=protocol_anomaly', 'endpoint=/robots.txt'})",2
+0.00237,"frozenset({'action=review_required', 'endpoint=/robots.txt'})",2
+0.11177,"frozenset({'endpoint=/robots.txt', 'method=get', 'action=block'})",3
+0.11177,"frozenset({'endpoint=/robots.txt', 'attack_type=untagged', 'action=block'})",3
+0.11177,"frozenset({'method=get', 'attack_type=untagged', 'endpoint=/robots.txt'})",3
+0.11177,"frozenset({'endpoint=/robots.txt', 'method=get', 'attack_type=untagged', 'action=block'})",4
+0.00237,"frozenset({'method=get', 'attack_type=protocol_anomaly', 'endpoint=/robots.txt'})",3
+0.00237,"frozenset({'action=review_required', 'attack_type=protocol_anomaly', 'endpoint=/robots.txt'})",3
+0.00237,"frozenset({'action=review_required', 'method=get', 'endpoint=/robots.txt'})",3
+0.00237,"frozenset({'action=review_required', 'attack_type=protocol_anomaly', 'method=get', 'endpoint=/robots.txt'})",4
+0.00209,"frozenset({'attack_type=lfi', 'endpoint=/wp-config.php'})",2
+0.00209,"frozenset({'action=review_required', 'endpoint=/wp-config.php'})",2
+0.00209,"frozenset({'method=get', 'endpoint=/wp-config.php'})",2
+0.00209,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/wp-config.php'})",3
+0.00209,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/wp-config.php'})",3
+0.00209,"frozenset({'action=review_required', 'method=get', 'endpoint=/wp-config.php'})",3
+0.00209,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/wp-config.php'})",4
+0.09654,"frozenset({'action=review_required', 'method=post'})",2
+0.08242,"frozenset({'method=post', 'attack_type=protocol_anomaly'})",2
+0.08233,"frozenset({'action=review_required', 'method=post', 'attack_type=protocol_anomaly'})",3
+0.01506,"frozenset({'action=review_required', 'attack_type=rce'})",2
+0.00432,"frozenset({'method=post', 'attack_type=rce'})",2
+0.01074,"frozenset({'method=get', 'attack_type=rce'})",2
+0.00432,"frozenset({'action=review_required', 'method=post', 'attack_type=rce'})",3
+0.01074,"frozenset({'action=review_required', 'method=get', 'attack_type=rce'})",3
+0.00264,"frozenset({'endpoint=/wp-plain.php', 'attack_type=rce'})",2
+0.00264,"frozenset({'method=post', 'endpoint=/wp-plain.php'})",2
+0.00264,"frozenset({'action=review_required', 'endpoint=/wp-plain.php'})",2
+0.00264,"frozenset({'method=post', 'endpoint=/wp-plain.php', 'attack_type=rce'})",3
+0.00264,"frozenset({'action=review_required', 'endpoint=/wp-plain.php', 'attack_type=rce'})",3
+0.00264,"frozenset({'action=review_required', 'endpoint=/wp-plain.php', 'method=post'})",3
+0.00264,"frozenset({'attack_type=rce', 'action=review_required', 'endpoint=/wp-plain.php', 'method=post'})",4
+0.02715,"frozenset({'endpoint=/.env', 'action=review_required'})",2
+0.02714,"frozenset({'endpoint=/.env', 'method=get'})",2
+0.02182,"frozenset({'endpoint=/.env', 'attack_type=lfi'})",2
+0.00533,"frozenset({'endpoint=/.env', 'attack_type=lfi|protocol_anomaly'})",2
+0.02714,"frozenset({'endpoint=/.env', 'action=review_required', 'method=get'})",3
+0.02182,"frozenset({'endpoint=/.env', 'action=review_required', 'attack_type=lfi'})",3
+0.02181,"frozenset({'endpoint=/.env', 'method=get', 'attack_type=lfi'})",3
+0.02181,"frozenset({'endpoint=/.env', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.00533,"frozenset({'endpoint=/.env', 'method=get', 'attack_type=lfi|protocol_anomaly'})",3
+0.00533,"frozenset({'endpoint=/.env', 'action=review_required', 'attack_type=lfi|protocol_anomaly'})",3
+0.00533,"frozenset({'endpoint=/.env', 'action=review_required', 'method=get', 'attack_type=lfi|protocol_anomaly'})",4
+0.00401,"frozenset({'action=review_required', 'endpoint=/xmlrpc.php?rsd'})",2
+0.004,"frozenset({'attack_type=protocol_anomaly', 'endpoint=/xmlrpc.php?rsd'})",2
+0.00381,"frozenset({'method=get', 'endpoint=/xmlrpc.php?rsd'})",2
+0.004,"frozenset({'action=review_required', 'attack_type=protocol_anomaly', 'endpoint=/xmlrpc.php?rsd'})",3
+0.00379,"frozenset({'action=review_required', 'method=get', 'endpoint=/xmlrpc.php?rsd'})",3
+0.00378,"frozenset({'method=get', 'attack_type=protocol_anomaly', 'endpoint=/xmlrpc.php?rsd'})",3
+0.00378,"frozenset({'action=review_required', 'method=get', 'attack_type=protocol_anomaly', 'endpoint=/xmlrpc.php?rsd'})",4
+0.08086,"frozenset({'action=review_required', 'endpoint=/xmlrpc.php'})",2
+0.08085,"frozenset({'endpoint=/xmlrpc.php', 'attack_type=protocol_anomaly'})",2
+0.07935,"frozenset({'method=post', 'endpoint=/xmlrpc.php'})",2
+0.00146,"frozenset({'method=get', 'endpoint=/xmlrpc.php'})",2
+0.08085,"frozenset({'action=review_required', 'attack_type=protocol_anomaly', 'endpoint=/xmlrpc.php'})",3
+0.07934,"frozenset({'action=review_required', 'method=post', 'endpoint=/xmlrpc.php'})",3
+0.07933,"frozenset({'method=post', 'attack_type=protocol_anomaly', 'endpoint=/xmlrpc.php'})",3
+0.07933,"frozenset({'action=review_required', 'attack_type=protocol_anomaly', 'method=post', 'endpoint=/xmlrpc.php'})",4
+0.00146,"frozenset({'method=get', 'attack_type=protocol_anomaly', 'endpoint=/xmlrpc.php'})",3
+0.00146,"frozenset({'action=review_required', 'method=get', 'endpoint=/xmlrpc.php'})",3
+0.00146,"frozenset({'action=review_required', 'attack_type=protocol_anomaly', 'method=get', 'endpoint=/xmlrpc.php'})",4
+0.04178,"frozenset({'action=review_required', 'attack_type=lfi|protocol_anomaly'})",2
+0.04144,"frozenset({'method=get', 'attack_type=lfi|protocol_anomaly'})",2
+0.04144,"frozenset({'action=review_required', 'method=get', 'attack_type=lfi|protocol_anomaly'})",3
+0.04433,"frozenset({'endpoint=/', 'method=get'})",2
+0.04101,"frozenset({'endpoint=/', 'action=review_required'})",2
+0.03939,"frozenset({'endpoint=/', 'attack_type=protocol_anomaly'})",2
+0.00681,"frozenset({'endpoint=/', 'attack_type=untagged'})",2
+0.00562,"frozenset({'endpoint=/', 'action=block'})",2
+0.03884,"frozenset({'endpoint=/', 'action=review_required', 'method=get'})",3
+0.03939,"frozenset({'action=review_required', 'endpoint=/', 'attack_type=protocol_anomaly'})",3
+0.03763,"frozenset({'endpoint=/', 'attack_type=protocol_anomaly', 'method=get'})",3
+0.03763,"frozenset({'endpoint=/', 'method=get', 'attack_type=protocol_anomaly', 'action=review_required'})",4
+0.00653,"frozenset({'endpoint=/', 'attack_type=untagged', 'method=get'})",3
+0.00119,"frozenset({'endpoint=/', 'action=review_required', 'attack_type=untagged'})",3
+0.00104,"frozenset({'endpoint=/', 'action=review_required', 'attack_type=untagged', 'method=get'})",4
+0.00562,"frozenset({'endpoint=/', 'attack_type=untagged', 'action=block'})",3
+0.00549,"frozenset({'endpoint=/', 'method=get', 'action=block'})",3
+0.00549,"frozenset({'endpoint=/', 'attack_type=untagged', 'method=get', 'action=block'})",4
+0.00117,"frozenset({'action=review_required', 'endpoint=/wp-login.php'})",2
+0.00114,"frozenset({'method=post', 'endpoint=/wp-login.php'})",2
+0.00114,"frozenset({'action=review_required', 'endpoint=/wp-login.php', 'method=post'})",3
+0.00177,"frozenset({'action=review_required', 'endpoint=/portal/.env'})",2
+0.00177,"frozenset({'method=get', 'endpoint=/portal/.env'})",2
+0.00174,"frozenset({'attack_type=lfi', 'endpoint=/portal/.env'})",2
+0.00177,"frozenset({'action=review_required', 'endpoint=/portal/.env', 'method=get'})",3
+0.00174,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/portal/.env'})",3
+0.00174,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/portal/.env'})",3
+0.00174,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/portal/.env', 'method=get'})",4
+0.00804,"frozenset({'action=review_required', 'endpoint=/api/.env'})",2
+0.00804,"frozenset({'endpoint=/api/.env', 'method=get'})",2
+0.00778,"frozenset({'endpoint=/api/.env', 'attack_type=lfi'})",2
+0.00804,"frozenset({'action=review_required', 'endpoint=/api/.env', 'method=get'})",3
+0.00778,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/api/.env'})",3
+0.00778,"frozenset({'endpoint=/api/.env', 'attack_type=lfi', 'method=get'})",3
+0.00778,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/api/.env', 'method=get'})",4
+0.00412,"frozenset({'action=review_required', 'endpoint=/app/.env'})",2
+0.00412,"frozenset({'method=get', 'endpoint=/app/.env'})",2
+0.00403,"frozenset({'attack_type=lfi', 'endpoint=/app/.env'})",2
+0.00412,"frozenset({'action=review_required', 'endpoint=/app/.env', 'method=get'})",3
+0.00403,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/app/.env'})",3
+0.00403,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/app/.env'})",3
+0.00403,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/app/.env', 'method=get'})",4
+0.00348,"frozenset({'action=review_required', 'endpoint=/dev/.env'})",2
+0.00348,"frozenset({'method=get', 'endpoint=/dev/.env'})",2
+0.00344,"frozenset({'attack_type=lfi', 'endpoint=/dev/.env'})",2
+0.00348,"frozenset({'action=review_required', 'endpoint=/dev/.env', 'method=get'})",3
+0.00344,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/dev/.env'})",3
+0.00344,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/dev/.env'})",3
+0.00344,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/dev/.env'})",4
+0.00105,"frozenset({'action=review_required', 'endpoint=/new/.env'})",2
+0.00105,"frozenset({'method=get', 'endpoint=/new/.env'})",2
+0.00101,"frozenset({'attack_type=lfi', 'endpoint=/new/.env'})",2
+0.00105,"frozenset({'action=review_required', 'method=get', 'endpoint=/new/.env'})",3
+0.00101,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/new/.env'})",3
+0.00101,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/new/.env'})",3
+0.00101,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/new/.env'})",4
+0.00101,"frozenset({'action=review_required', 'endpoint=/conf/.env'})",2
+0.00101,"frozenset({'endpoint=/conf/.env', 'method=get'})",2
+0.00101,"frozenset({'action=review_required', 'endpoint=/conf/.env', 'method=get'})",3
+0.00113,"frozenset({'action=review_required', 'endpoint=/cron/.env'})",2
+0.00113,"frozenset({'endpoint=/cron/.env', 'method=get'})",2
+0.00111,"frozenset({'endpoint=/cron/.env', 'attack_type=lfi'})",2
+0.00113,"frozenset({'action=review_required', 'endpoint=/cron/.env', 'method=get'})",3
+0.00111,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/cron/.env'})",3
+0.00111,"frozenset({'endpoint=/cron/.env', 'attack_type=lfi', 'method=get'})",3
+0.00111,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/cron/.env', 'method=get'})",4
+0.001,"frozenset({'action=review_required', 'endpoint=/www/.env'})",2
+0.001,"frozenset({'endpoint=/www/.env', 'method=get'})",2
+0.001,"frozenset({'action=review_required', 'method=get', 'endpoint=/www/.env'})",3
+0.00276,"frozenset({'action=review_required', 'endpoint=/docker/.env'})",2
+0.00276,"frozenset({'method=get', 'endpoint=/docker/.env'})",2
+0.00274,"frozenset({'attack_type=lfi', 'endpoint=/docker/.env'})",2
+0.00276,"frozenset({'action=review_required', 'endpoint=/docker/.env', 'method=get'})",3
+0.00274,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/docker/.env'})",3
+0.00274,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/docker/.env'})",3
+0.00274,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/docker/.env', 'method=get'})",4
+0.00169,"frozenset({'action=review_required', 'endpoint=/.vscode/.env'})",2
+0.00169,"frozenset({'method=get', 'endpoint=/.vscode/.env'})",2
+0.00167,"frozenset({'attack_type=lfi', 'endpoint=/.vscode/.env'})",2
+0.00169,"frozenset({'action=review_required', 'endpoint=/.vscode/.env', 'method=get'})",3
+0.00167,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.vscode/.env'})",3
+0.00167,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.vscode/.env'})",3
+0.00167,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.vscode/.env', 'method=get'})",4
+0.00337,"frozenset({'action=review_required', 'endpoint=/laravel/.env'})",2
+0.00337,"frozenset({'method=get', 'endpoint=/laravel/.env'})",2
+0.00332,"frozenset({'attack_type=lfi', 'endpoint=/laravel/.env'})",2
+0.00337,"frozenset({'action=review_required', 'method=get', 'endpoint=/laravel/.env'})",3
+0.00332,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/laravel/.env'})",3
+0.00332,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/laravel/.env'})",3
+0.00332,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/laravel/.env'})",4
+0.00156,"frozenset({'action=review_required', 'endpoint=/laravel/core/.env'})",2
+0.00156,"frozenset({'endpoint=/laravel/core/.env', 'method=get'})",2
+0.00154,"frozenset({'endpoint=/laravel/core/.env', 'attack_type=lfi'})",2
+0.00156,"frozenset({'action=review_required', 'endpoint=/laravel/core/.env', 'method=get'})",3
+0.00154,"frozenset({'action=review_required', 'endpoint=/laravel/core/.env', 'attack_type=lfi'})",3
+0.00154,"frozenset({'endpoint=/laravel/core/.env', 'attack_type=lfi', 'method=get'})",3
+0.00154,"frozenset({'action=review_required', 'endpoint=/laravel/core/.env', 'attack_type=lfi', 'method=get'})",4
+0.00168,"frozenset({'action=review_required', 'endpoint=/mail/.env'})",2
+0.00168,"frozenset({'endpoint=/mail/.env', 'method=get'})",2
+0.00165,"frozenset({'endpoint=/mail/.env', 'attack_type=lfi'})",2
+0.00168,"frozenset({'action=review_required', 'endpoint=/mail/.env', 'method=get'})",3
+0.00165,"frozenset({'endpoint=/mail/.env', 'action=review_required', 'attack_type=lfi'})",3
+0.00165,"frozenset({'endpoint=/mail/.env', 'attack_type=lfi', 'method=get'})",3
+0.00165,"frozenset({'endpoint=/mail/.env', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.00159,"frozenset({'endpoint=/mailer/.env', 'action=review_required'})",2
+0.00159,"frozenset({'endpoint=/mailer/.env', 'method=get'})",2
+0.00157,"frozenset({'endpoint=/mailer/.env', 'attack_type=lfi'})",2
+0.00159,"frozenset({'endpoint=/mailer/.env', 'action=review_required', 'method=get'})",3
+0.00157,"frozenset({'endpoint=/mailer/.env', 'action=review_required', 'attack_type=lfi'})",3
+0.00157,"frozenset({'endpoint=/mailer/.env', 'method=get', 'attack_type=lfi'})",3
+0.00157,"frozenset({'endpoint=/mailer/.env', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.00202,"frozenset({'action=review_required', 'endpoint=/public/.env'})",2
+0.00202,"frozenset({'method=get', 'endpoint=/public/.env'})",2
+0.00198,"frozenset({'attack_type=lfi', 'endpoint=/public/.env'})",2
+0.00202,"frozenset({'action=review_required', 'endpoint=/public/.env', 'method=get'})",3
+0.00198,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/public/.env'})",3
+0.00198,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/public/.env'})",3
+0.00198,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/public/.env', 'method=get'})",4
+0.00114,"frozenset({'action=review_required', 'endpoint=/site/.env'})",2
+0.00114,"frozenset({'method=get', 'endpoint=/site/.env'})",2
+0.00111,"frozenset({'attack_type=lfi', 'endpoint=/site/.env'})",2
+0.00114,"frozenset({'action=review_required', 'endpoint=/site/.env', 'method=get'})",3
+0.00111,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/site/.env'})",3
+0.00111,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/site/.env'})",3
+0.00111,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/site/.env', 'method=get'})",4
+0.00101,"frozenset({'endpoint=/main/.env', 'action=review_required'})",2
+0.00101,"frozenset({'endpoint=/main/.env', 'method=get'})",2
+0.001,"frozenset({'endpoint=/main/.env', 'attack_type=lfi'})",2
+0.00101,"frozenset({'endpoint=/main/.env', 'action=review_required', 'method=get'})",3
+0.001,"frozenset({'endpoint=/main/.env', 'action=review_required', 'attack_type=lfi'})",3
+0.001,"frozenset({'endpoint=/main/.env', 'method=get', 'attack_type=lfi'})",3
+0.001,"frozenset({'endpoint=/main/.env', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.00158,"frozenset({'endpoint=/kyc/.env', 'action=review_required'})",2
+0.00158,"frozenset({'endpoint=/kyc/.env', 'method=get'})",2
+0.00156,"frozenset({'endpoint=/kyc/.env', 'attack_type=lfi'})",2
+0.00158,"frozenset({'endpoint=/kyc/.env', 'action=review_required', 'method=get'})",3
+0.00156,"frozenset({'endpoint=/kyc/.env', 'action=review_required', 'attack_type=lfi'})",3
+0.00156,"frozenset({'endpoint=/kyc/.env', 'method=get', 'attack_type=lfi'})",3
+0.00156,"frozenset({'endpoint=/kyc/.env', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.00497,"frozenset({'action=review_required', 'endpoint=/admin/.env'})",2
+0.00497,"frozenset({'method=get', 'endpoint=/admin/.env'})",2
+0.00489,"frozenset({'attack_type=lfi', 'endpoint=/admin/.env'})",2
+0.00497,"frozenset({'action=review_required', 'endpoint=/admin/.env', 'method=get'})",3
+0.00489,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/admin/.env'})",3
+0.00489,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/admin/.env'})",3
+0.00489,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/admin/.env', 'method=get'})",4
+0.00165,"frozenset({'action=review_required', 'endpoint=/prod/.env'})",2
+0.00165,"frozenset({'method=get', 'endpoint=/prod/.env'})",2
+0.0016,"frozenset({'attack_type=lfi', 'endpoint=/prod/.env'})",2
+0.00165,"frozenset({'action=review_required', 'method=get', 'endpoint=/prod/.env'})",3
+0.0016,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/prod/.env'})",3
+0.0016,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/prod/.env'})",3
+0.0016,"frozenset({'action=review_required', 'method=get', 'attack_type=lfi', 'endpoint=/prod/.env'})",4
+0.00462,"frozenset({'endpoint=/.env.bak', 'attack_type=lfi|protocol_anomaly'})",2
+0.00462,"frozenset({'endpoint=/.env.bak', 'action=review_required'})",2
+0.00462,"frozenset({'endpoint=/.env.bak', 'method=get'})",2
+0.00462,"frozenset({'endpoint=/.env.bak', 'action=review_required', 'attack_type=lfi|protocol_anomaly'})",3
+0.00462,"frozenset({'endpoint=/.env.bak', 'method=get', 'attack_type=lfi|protocol_anomaly'})",3
+0.00462,"frozenset({'endpoint=/.env.bak', 'action=review_required', 'method=get'})",3
+0.00462,"frozenset({'endpoint=/.env.bak', 'action=review_required', 'method=get', 'attack_type=lfi|protocol_anomaly'})",4
+0.00119,"frozenset({'action=review_required', 'endpoint=/website/.env'})",2
+0.00119,"frozenset({'method=get', 'endpoint=/website/.env'})",2
+0.00116,"frozenset({'attack_type=lfi', 'endpoint=/website/.env'})",2
+0.00119,"frozenset({'action=review_required', 'method=get', 'endpoint=/website/.env'})",3
+0.00116,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/website/.env'})",3
+0.00116,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/website/.env'})",3
+0.00116,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/website/.env'})",4
+0.00176,"frozenset({'action=review_required', 'endpoint=/development/.env'})",2
+0.00176,"frozenset({'method=get', 'endpoint=/development/.env'})",2
+0.00173,"frozenset({'attack_type=lfi', 'endpoint=/development/.env'})",2
+0.00176,"frozenset({'action=review_required', 'endpoint=/development/.env', 'method=get'})",3
+0.00173,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/development/.env'})",3
+0.00173,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/development/.env'})",3
+0.00173,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/development/.env', 'method=get'})",4
+0.00534,"frozenset({'action=review_required', 'endpoint=/backend/.env'})",2
+0.00534,"frozenset({'method=get', 'endpoint=/backend/.env'})",2
+0.00515,"frozenset({'attack_type=lfi', 'endpoint=/backend/.env'})",2
+0.00534,"frozenset({'action=review_required', 'method=get', 'endpoint=/backend/.env'})",3
+0.00515,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/backend/.env'})",3
+0.00515,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/backend/.env'})",3
+0.00515,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/backend/.env'})",4
+0.00171,"frozenset({'action=review_required', 'endpoint=/.env.production.local'})",2
+0.00171,"frozenset({'method=get', 'endpoint=/.env.production.local'})",2
+0.00166,"frozenset({'attack_type=lfi', 'endpoint=/.env.production.local'})",2
+0.00171,"frozenset({'action=review_required', 'method=get', 'endpoint=/.env.production.local'})",3
+0.00166,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.env.production.local'})",3
+0.00166,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.env.production.local'})",3
+0.00166,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/.env.production.local'})",4
+0.00498,"frozenset({'action=review_required', 'endpoint=/.env.local'})",2
+0.00498,"frozenset({'endpoint=/.env.local', 'method=get'})",2
+0.00442,"frozenset({'endpoint=/.env.local', 'attack_type=lfi'})",2
+0.00498,"frozenset({'action=review_required', 'endpoint=/.env.local', 'method=get'})",3
+0.00442,"frozenset({'action=review_required', 'endpoint=/.env.local', 'attack_type=lfi'})",3
+0.00442,"frozenset({'endpoint=/.env.local', 'attack_type=lfi', 'method=get'})",3
+0.00442,"frozenset({'action=review_required', 'endpoint=/.env.local', 'attack_type=lfi', 'method=get'})",4
+0.00484,"frozenset({'action=review_required', 'endpoint=/.env.example'})",2
+0.00484,"frozenset({'method=get', 'endpoint=/.env.example'})",2
+0.00473,"frozenset({'attack_type=lfi', 'endpoint=/.env.example'})",2
+0.00484,"frozenset({'action=review_required', 'endpoint=/.env.example', 'method=get'})",3
+0.00473,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.env.example'})",3
+0.00473,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.env.example'})",3
+0.00473,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.env.example', 'method=get'})",4
+0.0023,"frozenset({'action=review_required', 'endpoint=/.env.stage'})",2
+0.0023,"frozenset({'method=get', 'endpoint=/.env.stage'})",2
+0.00225,"frozenset({'attack_type=lfi', 'endpoint=/.env.stage'})",2
+0.0023,"frozenset({'action=review_required', 'method=get', 'endpoint=/.env.stage'})",3
+0.00225,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.env.stage'})",3
+0.00225,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.env.stage'})",3
+0.00225,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/.env.stage'})",4
+0.00173,"frozenset({'endpoint=/.env.old', 'attack_type=lfi|protocol_anomaly'})",2
+0.00173,"frozenset({'action=review_required', 'endpoint=/.env.old'})",2
+0.00173,"frozenset({'method=get', 'endpoint=/.env.old'})",2
+0.00173,"frozenset({'endpoint=/.env.old', 'action=review_required', 'attack_type=lfi|protocol_anomaly'})",3
+0.00173,"frozenset({'endpoint=/.env.old', 'method=get', 'attack_type=lfi|protocol_anomaly'})",3
+0.00173,"frozenset({'endpoint=/.env.old', 'action=review_required', 'method=get'})",3
+0.00173,"frozenset({'attack_type=lfi|protocol_anomaly', 'action=review_required', 'endpoint=/.env.old', 'method=get'})",4
+0.00399,"frozenset({'action=review_required', 'endpoint=/.env.prod'})",2
+0.00399,"frozenset({'endpoint=/.env.prod', 'method=get'})",2
+0.00391,"frozenset({'endpoint=/.env.prod', 'attack_type=lfi'})",2
+0.00399,"frozenset({'action=review_required', 'method=get', 'endpoint=/.env.prod'})",3
+0.00391,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.env.prod'})",3
+0.00391,"frozenset({'endpoint=/.env.prod', 'attack_type=lfi', 'method=get'})",3
+0.00391,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/.env.prod'})",4
+0.00159,"frozenset({'endpoint=/crm/.env', 'action=review_required'})",2
+0.00159,"frozenset({'endpoint=/crm/.env', 'method=get'})",2
+0.00155,"frozenset({'endpoint=/crm/.env', 'attack_type=lfi'})",2
+0.00159,"frozenset({'endpoint=/crm/.env', 'action=review_required', 'method=get'})",3
+0.00155,"frozenset({'endpoint=/crm/.env', 'action=review_required', 'attack_type=lfi'})",3
+0.00155,"frozenset({'endpoint=/crm/.env', 'method=get', 'attack_type=lfi'})",3
+0.00155,"frozenset({'endpoint=/crm/.env', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.0016,"frozenset({'action=review_required', 'endpoint=/local/.env'})",2
+0.0016,"frozenset({'method=get', 'endpoint=/local/.env'})",2
+0.00156,"frozenset({'attack_type=lfi', 'endpoint=/local/.env'})",2
+0.0016,"frozenset({'action=review_required', 'method=get', 'endpoint=/local/.env'})",3
+0.00156,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/local/.env'})",3
+0.00156,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/local/.env'})",3
+0.00156,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/local/.env'})",4
+0.00185,"frozenset({'action=review_required', 'endpoint=/core/.env'})",2
+0.00183,"frozenset({'method=get', 'endpoint=/core/.env'})",2
+0.00177,"frozenset({'attack_type=lfi', 'endpoint=/core/.env'})",2
+0.00183,"frozenset({'action=review_required', 'method=get', 'endpoint=/core/.env'})",3
+0.00177,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/core/.env'})",3
+0.00177,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/core/.env'})",3
+0.00177,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/core/.env'})",4
+0.00238,"frozenset({'action=review_required', 'endpoint=/apps/.env'})",2
+0.00238,"frozenset({'method=get', 'endpoint=/apps/.env'})",2
+0.00233,"frozenset({'attack_type=lfi', 'endpoint=/apps/.env'})",2
+0.00238,"frozenset({'action=review_required', 'method=get', 'endpoint=/apps/.env'})",3
+0.00233,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/apps/.env'})",3
+0.00233,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/apps/.env'})",3
+0.00233,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/apps/.env'})",4
+0.00339,"frozenset({'action=review_required', 'endpoint=/application/.env'})",2
+0.00339,"frozenset({'method=get', 'endpoint=/application/.env'})",2
+0.00336,"frozenset({'attack_type=lfi', 'endpoint=/application/.env'})",2
+0.00339,"frozenset({'action=review_required', 'endpoint=/application/.env', 'method=get'})",3
+0.00336,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/application/.env'})",3
+0.00336,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/application/.env'})",3
+0.00336,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/application/.env'})",4
+0.00194,"frozenset({'action=review_required', 'endpoint=/web/.env'})",2
+0.00194,"frozenset({'method=get', 'endpoint=/web/.env'})",2
+0.00191,"frozenset({'attack_type=lfi', 'endpoint=/web/.env'})",2
+0.00194,"frozenset({'action=review_required', 'endpoint=/web/.env', 'method=get'})",3
+0.00191,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/web/.env'})",3
+0.00191,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/web/.env'})",3
+0.00191,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/web/.env', 'method=get'})",4
+0.00394,"frozenset({'action=review_required', 'endpoint=/.aws/credentials'})",2
+0.00394,"frozenset({'method=get', 'endpoint=/.aws/credentials'})",2
+0.00373,"frozenset({'attack_type=lfi', 'endpoint=/.aws/credentials'})",2
+0.00394,"frozenset({'action=review_required', 'method=get', 'endpoint=/.aws/credentials'})",3
+0.00373,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.aws/credentials'})",3
+0.00373,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.aws/credentials'})",3
+0.00373,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/.aws/credentials'})",4
+0.00104,"frozenset({'endpoint=/wp-config.php.bak', 'attack_type=lfi|protocol_anomaly'})",2
+0.00104,"frozenset({'action=review_required', 'endpoint=/wp-config.php.bak'})",2
+0.00104,"frozenset({'method=get', 'endpoint=/wp-config.php.bak'})",2
+0.00104,"frozenset({'action=review_required', 'endpoint=/wp-config.php.bak', 'attack_type=lfi|protocol_anomaly'})",3
+0.00104,"frozenset({'method=get', 'endpoint=/wp-config.php.bak', 'attack_type=lfi|protocol_anomaly'})",3
+0.00104,"frozenset({'action=review_required', 'endpoint=/wp-config.php.bak', 'method=get'})",3
+0.00104,"frozenset({'action=review_required', 'endpoint=/wp-config.php.bak', 'method=get', 'attack_type=lfi|protocol_anomaly'})",4
+0.00159,"frozenset({'endpoint=/d_94228992/d_badc51c9/laravel.log', 'attack_type=protocol_anomaly'})",2
+0.00159,"frozenset({'action=review_required', 'endpoint=/d_94228992/d_badc51c9/laravel.log'})",2
+0.00159,"frozenset({'method=get', 'endpoint=/d_94228992/d_badc51c9/laravel.log'})",2
+0.00159,"frozenset({'action=review_required', 'endpoint=/d_94228992/d_badc51c9/laravel.log', 'attack_type=protocol_anomaly'})",3
+0.00159,"frozenset({'method=get', 'endpoint=/d_94228992/d_badc51c9/laravel.log', 'attack_type=protocol_anomaly'})",3
+0.00159,"frozenset({'action=review_required', 'endpoint=/d_94228992/d_badc51c9/laravel.log', 'method=get'})",3
+0.00159,"frozenset({'action=review_required', 'method=get', 'endpoint=/d_94228992/d_badc51c9/laravel.log', 'attack_type=protocol_anomaly'})",4
+0.00103,"frozenset({'action=review_required', 'endpoint=/.travis.yml'})",2
+0.00103,"frozenset({'method=get', 'endpoint=/.travis.yml'})",2
+0.00102,"frozenset({'attack_type=lfi', 'endpoint=/.travis.yml'})",2
+0.00103,"frozenset({'action=review_required', 'method=get', 'endpoint=/.travis.yml'})",3
+0.00102,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.travis.yml'})",3
+0.00102,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.travis.yml'})",3
+0.00102,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/.travis.yml'})",4
+0.00224,"frozenset({'endpoint=/.aws/config', 'action=review_required'})",2
+0.00224,"frozenset({'endpoint=/.aws/config', 'method=get'})",2
+0.00222,"frozenset({'endpoint=/.aws/config', 'attack_type=lfi'})",2
+0.00224,"frozenset({'endpoint=/.aws/config', 'action=review_required', 'method=get'})",3
+0.00222,"frozenset({'endpoint=/.aws/config', 'action=review_required', 'attack_type=lfi'})",3
+0.00222,"frozenset({'endpoint=/.aws/config', 'method=get', 'attack_type=lfi'})",3
+0.00222,"frozenset({'endpoint=/.aws/config', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.00302,"frozenset({'attack_type=lfi', 'endpoint=/.ds_store'})",2
+0.00302,"frozenset({'action=review_required', 'endpoint=/.ds_store'})",2
+0.00302,"frozenset({'method=get', 'endpoint=/.ds_store'})",2
+0.00302,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.ds_store'})",3
+0.00302,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.ds_store'})",3
+0.00302,"frozenset({'action=review_required', 'endpoint=/.ds_store', 'method=get'})",3
+0.00302,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.ds_store', 'method=get'})",4
+0.00718,"frozenset({'action=review_required', 'endpoint=/.git/head'})",2
+0.00718,"frozenset({'method=get', 'endpoint=/.git/head'})",2
+0.00717,"frozenset({'attack_type=lfi', 'endpoint=/.git/head'})",2
+0.00718,"frozenset({'action=review_required', 'method=get', 'endpoint=/.git/head'})",3
+0.00717,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.git/head'})",3
+0.00717,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.git/head'})",3
+0.00717,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/.git/head'})",4
+0.00267,"frozenset({'endpoint=/.env.dev', 'action=review_required'})",2
+0.00267,"frozenset({'endpoint=/.env.dev', 'method=get'})",2
+0.00257,"frozenset({'endpoint=/.env.dev', 'attack_type=lfi'})",2
+0.00267,"frozenset({'endpoint=/.env.dev', 'action=review_required', 'method=get'})",3
+0.00257,"frozenset({'endpoint=/.env.dev', 'action=review_required', 'attack_type=lfi'})",3
+0.00257,"frozenset({'endpoint=/.env.dev', 'method=get', 'attack_type=lfi'})",3
+0.00257,"frozenset({'endpoint=/.env.dev', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.00168,"frozenset({'action=review_required', 'endpoint=/.env.development'})",2
+0.00168,"frozenset({'method=get', 'endpoint=/.env.development'})",2
+0.00143,"frozenset({'attack_type=lfi', 'endpoint=/.env.development'})",2
+0.00168,"frozenset({'action=review_required', 'method=get', 'endpoint=/.env.development'})",3
+0.00143,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.env.development'})",3
+0.00143,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.env.development'})",3
+0.00143,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/.env.development'})",4
+0.00433,"frozenset({'action=review_required', 'endpoint=/.env.production'})",2
+0.00433,"frozenset({'method=get', 'endpoint=/.env.production'})",2
+0.00384,"frozenset({'attack_type=lfi', 'endpoint=/.env.production'})",2
+0.00433,"frozenset({'endpoint=/.env.production', 'action=review_required', 'method=get'})",3
+0.00384,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.env.production'})",3
+0.00384,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.env.production'})",3
+0.00384,"frozenset({'endpoint=/.env.production', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.0039,"frozenset({'action=review_required', 'endpoint=/config/.env'})",2
+0.0039,"frozenset({'method=get', 'endpoint=/config/.env'})",2
+0.00378,"frozenset({'attack_type=lfi', 'endpoint=/config/.env'})",2
+0.0039,"frozenset({'action=review_required', 'endpoint=/config/.env', 'method=get'})",3
+0.00378,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/config/.env'})",3
+0.00378,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/config/.env'})",3
+0.00378,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/config/.env', 'method=get'})",4
+0.00145,"frozenset({'action=review_required', 'endpoint=/server/.env'})",2
+0.00145,"frozenset({'method=get', 'endpoint=/server/.env'})",2
+0.00141,"frozenset({'attack_type=lfi', 'endpoint=/server/.env'})",2
+0.00145,"frozenset({'action=review_required', 'method=get', 'endpoint=/server/.env'})",3
+0.00141,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/server/.env'})",3
+0.00141,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/server/.env'})",3
+0.00141,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/server/.env'})",4
+0.00132,"frozenset({'endpoint=/d_badc51c9/app.log', 'attack_type=protocol_anomaly'})",2
+0.00132,"frozenset({'action=review_required', 'endpoint=/d_badc51c9/app.log'})",2
+0.00132,"frozenset({'method=get', 'endpoint=/d_badc51c9/app.log'})",2
+0.00132,"frozenset({'action=review_required', 'endpoint=/d_badc51c9/app.log', 'attack_type=protocol_anomaly'})",3
+0.00132,"frozenset({'method=get', 'endpoint=/d_badc51c9/app.log', 'attack_type=protocol_anomaly'})",3
+0.00132,"frozenset({'action=review_required', 'endpoint=/d_badc51c9/app.log', 'method=get'})",3
+0.00132,"frozenset({'action=review_required', 'method=get', 'endpoint=/d_badc51c9/app.log', 'attack_type=protocol_anomaly'})",4
+0.00101,"frozenset({'attack_type=protocol_anomaly', 'endpoint=/backup.sql'})",2
+0.00101,"frozenset({'action=review_required', 'endpoint=/backup.sql'})",2
+0.00101,"frozenset({'method=get', 'endpoint=/backup.sql'})",2
+0.00101,"frozenset({'action=review_required', 'attack_type=protocol_anomaly', 'endpoint=/backup.sql'})",3
+0.00101,"frozenset({'method=get', 'attack_type=protocol_anomaly', 'endpoint=/backup.sql'})",3
+0.00101,"frozenset({'action=review_required', 'method=get', 'endpoint=/backup.sql'})",3
+0.00101,"frozenset({'action=review_required', 'method=get', 'attack_type=protocol_anomaly', 'endpoint=/backup.sql'})",4
+0.00109,"frozenset({'attack_type=lfi', 'endpoint=/assets/js/wp-config.php'})",2
+0.00109,"frozenset({'action=review_required', 'endpoint=/assets/js/wp-config.php'})",2
+0.00109,"frozenset({'method=get', 'endpoint=/assets/js/wp-config.php'})",2
+0.00109,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/assets/js/wp-config.php'})",3
+0.00109,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/assets/js/wp-config.php'})",3
+0.00109,"frozenset({'action=review_required', 'endpoint=/assets/js/wp-config.php', 'method=get'})",3
+0.00109,"frozenset({'action=review_required', 'method=get', 'attack_type=lfi', 'endpoint=/assets/js/wp-config.php'})",4
+0.00102,"frozenset({'endpoint=/.env.backup', 'attack_type=lfi|protocol_anomaly'})",2
+0.00102,"frozenset({'action=review_required', 'endpoint=/.env.backup'})",2
+0.00102,"frozenset({'endpoint=/.env.backup', 'method=get'})",2
+0.00102,"frozenset({'action=review_required', 'endpoint=/.env.backup', 'attack_type=lfi|protocol_anomaly'})",3
+0.00102,"frozenset({'endpoint=/.env.backup', 'method=get', 'attack_type=lfi|protocol_anomaly'})",3
+0.00102,"frozenset({'action=review_required', 'endpoint=/.env.backup', 'method=get'})",3
+0.00102,"frozenset({'action=review_required', 'method=get', 'endpoint=/.env.backup', 'attack_type=lfi|protocol_anomaly'})",4
+0.00267,"frozenset({'action=review_required', 'endpoint=/.env.save'})",2
+0.00267,"frozenset({'method=get', 'endpoint=/.env.save'})",2
+0.00261,"frozenset({'endpoint=/.env.save', 'attack_type=lfi'})",2
+0.00267,"frozenset({'action=review_required', 'method=get', 'endpoint=/.env.save'})",3
+0.00261,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/.env.save'})",3
+0.00261,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/.env.save'})",3
+0.00261,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/.env.save'})",4
+0.00102,"frozenset({'attack_type=lfi', 'endpoint=/beta/.env'})",2
+0.00102,"frozenset({'action=review_required', 'endpoint=/beta/.env'})",2
+0.00102,"frozenset({'method=get', 'endpoint=/beta/.env'})",2
+0.00102,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/beta/.env'})",3
+0.00102,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/beta/.env'})",3
+0.00102,"frozenset({'action=review_required', 'endpoint=/beta/.env', 'method=get'})",3
+0.00102,"frozenset({'action=review_required', 'attack_type=lfi', 'method=get', 'endpoint=/beta/.env'})",4
+0.00107,"frozenset({'endpoint=/vendor/.env', 'action=review_required'})",2
+0.00107,"frozenset({'endpoint=/vendor/.env', 'method=get'})",2
+0.00104,"frozenset({'endpoint=/vendor/.env', 'attack_type=lfi'})",2
+0.00107,"frozenset({'endpoint=/vendor/.env', 'action=review_required', 'method=get'})",3
+0.00104,"frozenset({'endpoint=/vendor/.env', 'action=review_required', 'attack_type=lfi'})",3
+0.00104,"frozenset({'endpoint=/vendor/.env', 'method=get', 'attack_type=lfi'})",3
+0.00104,"frozenset({'endpoint=/vendor/.env', 'action=review_required', 'attack_type=lfi', 'method=get'})",4
+0.001,"frozenset({'endpoint=/d_26833b49/debug.log', 'attack_type=protocol_anomaly'})",2
+0.001,"frozenset({'endpoint=/d_26833b49/debug.log', 'action=review_required'})",2
+0.001,"frozenset({'endpoint=/d_26833b49/debug.log', 'method=get'})",2
+0.001,"frozenset({'endpoint=/d_26833b49/debug.log', 'action=review_required', 'attack_type=protocol_anomaly'})",3
+0.001,"frozenset({'endpoint=/d_26833b49/debug.log', 'method=get', 'attack_type=protocol_anomaly'})",3
+0.001,"frozenset({'endpoint=/d_26833b49/debug.log', 'action=review_required', 'method=get'})",3
+0.001,"frozenset({'endpoint=/d_26833b49/debug.log', 'method=get', 'attack_type=protocol_anomaly', 'action=review_required'})",4
+0.00129,"frozenset({'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php.suspected', 'attack_type=injection|php_injection'})",2
+0.00129,"frozenset({'action=review_required', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php.suspected'})",2
+0.00129,"frozenset({'method=get', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php.suspected'})",2
+0.00129,"frozenset({'action=review_required', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php.suspected', 'attack_type=injection|php_injection'})",3
+0.00129,"frozenset({'method=get', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php.suspected', 'attack_type=injection|php_injection'})",3
+0.00129,"frozenset({'action=review_required', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php.suspected', 'method=get'})",3
+0.00129,"frozenset({'action=review_required', 'endpoint=/d_3b1ec613/d_bd205cb5/gzdecodes.php.suspected', 'method=get', 'attack_type=injection|php_injection'})",4
+0.00241,"frozenset({'action=review_required', 'method=head'})",2
+0.00239,"frozenset({'attack_type=protocol_anomaly', 'method=head'})",2
+0.00181,"frozenset({'endpoint=/', 'method=head'})",2
+0.00239,"frozenset({'action=review_required', 'attack_type=protocol_anomaly', 'method=head'})",3
+0.00177,"frozenset({'endpoint=/', 'action=review_required', 'method=head'})",3
+0.00176,"frozenset({'endpoint=/', 'attack_type=protocol_anomaly', 'method=head'})",3
+0.00176,"frozenset({'endpoint=/', 'action=review_required', 'attack_type=protocol_anomaly', 'method=head'})",4
+0.0011,"frozenset({'attack_type=lfi', 'endpoint=/wp-includes/css/wp-config.php'})",2
+0.0011,"frozenset({'action=review_required', 'endpoint=/wp-includes/css/wp-config.php'})",2
+0.0011,"frozenset({'method=get', 'endpoint=/wp-includes/css/wp-config.php'})",2
+0.0011,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/wp-includes/css/wp-config.php'})",3
+0.0011,"frozenset({'method=get', 'attack_type=lfi', 'endpoint=/wp-includes/css/wp-config.php'})",3
+0.0011,"frozenset({'action=review_required', 'endpoint=/wp-includes/css/wp-config.php', 'method=get'})",3
+0.0011,"frozenset({'action=review_required', 'attack_type=lfi', 'endpoint=/wp-includes/css/wp-config.php', 'method=get'})",4
+0.0056,"frozenset({'action=review_required', 'attack_type=sqli'})",2
+0.00314,"frozenset({'attack_type=sqli', 'method=post'})",2
+0.00246,"frozenset({'attack_type=sqli', 'method=get'})",2
+0.00314,"frozenset({'action=review_required', 'attack_type=sqli', 'method=post'})",3
+0.00246,"frozenset({'action=review_required', 'attack_type=sqli', 'method=get'})",3
+0.00103,"frozenset({'action=review_required', 'attack_type=xss'})",2
+0.0031,"frozenset({'action=review_required', 'attack_type=lfi|rce'})",2
+0.0022,"frozenset({'method=get', 'attack_type=lfi|rce'})",2
+0.0022,"frozenset({'action=review_required', 'attack_type=lfi|rce', 'method=get'})",3

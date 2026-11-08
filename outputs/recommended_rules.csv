@@ -1,0 +1,16 @@
+recommendation_id,request_pattern,suggested_action,support,confidence,lift,reason,review_status
+1,"attack_type=untagged, endpoint=/robots.txt",REVIEW_BLOCK_RULE,0.1118,1.0,2.5064,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+2,"attack_type=untagged, endpoint=/robots.txt",REVIEW_BLOCK_RULE,0.1118,1.0,2.5033,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+3,"attack_type=untagged, endpoint=/robots.txt, method=get",REVIEW_BLOCK_RULE,0.1118,1.0,2.5033,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+4,"attack_type=untagged, method=get",REVIEW_BLOCK_RULE,0.399,0.9967,2.495,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+5,attack_type=untagged,REVIEW_BLOCK_RULE,0.3994,0.9954,2.4917,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+6,attack_type=untagged,REVIEW_BLOCK_RULE,0.399,0.9943,2.4922,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+7,endpoint=/robots.txt,REVIEW_BLOCK_RULE,0.1118,0.9792,2.4543,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+8,endpoint=/robots.txt,REVIEW_BLOCK_RULE,0.1118,0.9792,2.4543,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+9,endpoint=/robots.txt,REVIEW_BLOCK_RULE,0.1118,0.9792,2.4518,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+10,"endpoint=/robots.txt, method=get",REVIEW_BLOCK_RULE,0.1118,0.9792,2.4518,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+11,endpoint=/robots.txt,REVIEW_BLOCK_RULE,0.1118,0.9792,2.4513,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+12,"endpoint=/robots.txt, method=get",REVIEW_BLOCK_RULE,0.1118,0.9792,2.4513,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+13,"attack_type=untagged, endpoint=/, method=get",REVIEW_BLOCK_RULE,0.0055,0.8407,2.1046,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+14,"attack_type=untagged, endpoint=/",REVIEW_BLOCK_RULE,0.0056,0.8253,2.0658,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
+15,"attack_type=untagged, endpoint=/",REVIEW_BLOCK_RULE,0.0055,0.8062,2.0206,This request pattern is associated with explicitly blocked traffic.,PENDING_SECURITY_REVIEW
